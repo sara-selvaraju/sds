@@ -1,10 +1,13 @@
 # SuperDataScience AI Bootcamp
 
-## 8 week intensive bootcamp into LLMs, Agents, AWS and AI in Production
+![Bootcamp](assets/banner.png)
+
+## 8 week intensive bootcamp on AI Engineering, Agentic AI,  and Building & Deploying Production AI Systems
+
 
 _If you're looking at this in Cursor, please right click on the filename in the Explorer on the left, and select "Open preview", to view the formatted version._
 
-I couldn't be more excited to welcome you! This repo is for the first 4 weeks where we immerse ourselves in LLMs and Agents, before you move to Production.
+I couldn't be more excited to welcome you! This repo is for the first 4 weeks where we immerse ourselves in LLMs and Agents, before you move to building and deploying AI systems for Production.
 
 ### Before you begin
 
