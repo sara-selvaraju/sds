@@ -1327,6 +1327,28 @@ wheels = [
 ]
 
 [[package]]
+name = "litellm"
+version = "1.72.6"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "aiohttp" },
+    { name = "click" },
+    { name = "httpx" },
+    { name = "importlib-metadata" },
+    { name = "jinja2" },
+    { name = "jsonschema" },
+    { name = "openai" },
+    { name = "pydantic" },
+    { name = "python-dotenv" },
+    { name = "tiktoken" },
+    { name = "tokenizers" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/8d/15/df75f278fd998f6d6900f692b9de2fba2814b316c123c99072a813668aac/litellm-1.72.6.tar.gz", hash = "sha256:4e5c7e4273b09b765302d2faaec30f77b42255c0055b427b55ea02b8092b8582", size = 8393603, upload-time = "2025-06-14T21:43:11.023Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/96/c9/4aae0b77632279eef9716dbcb98edd8b36c08a9da070e2470ca9c410c0f8/litellm-1.72.6-py3-none-any.whl", hash = "sha256:e0ae98d25db4910e78b1a0a604f24c0d6875f6cdea02426b264a45d4fbdb8c46", size = 8302810, upload-time = "2025-06-14T21:43:08.628Z" },
+]
+
+[[package]]
 name = "markdown-it-py"
 version = "3.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2742,6 +2764,7 @@ dependencies = [
     { name = "langchain-core" },
     { name = "langchain-openai" },
     { name = "langchain-text-splitters" },
+    { name = "litellm" },
     { name = "mcp", extra = ["cli"] },
     { name = "nbformat" },
     { name = "openai" },
@@ -2776,6 +2799,7 @@ requires-dist = [
     { name = "langchain-core", specifier = ">=0.3.65" },
     { name = "langchain-openai", specifier = ">=0.3.22" },
     { name = "langchain-text-splitters", specifier = ">=0.3.8" },
+    { name = "litellm", specifier = ">=1.72.6" },
     { name = "mcp", extras = ["cli"], specifier = ">=1.9.3" },
     { name = "nbformat", specifier = ">=5.10.4" },
     { name = "openai", specifier = ">=1.86.0" },
